@@ -32,8 +32,6 @@ class TestRootEndpoint:
         assert "/ui" in response.headers.get("location", "")
 
 
-
-
 class TestChatEndpoints:
     """채팅 API 엔드포인트 테스트"""
 
